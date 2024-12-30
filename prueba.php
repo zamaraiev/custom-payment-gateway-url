@@ -39,7 +39,7 @@ $order = wc_get_order($order_id);
 
 ?>
 
-    <form action="https://pulsepay.online/paylink/" method="POST">
+    <form action="" method="POST">
 				<input type="hidden" name="email" value="<?php echo esc_attr($email); ?>">
 				<input type="hidden" name="total" value="<?php echo esc_attr($total); ?>">
 				<input type="hidden" name="name" value="<?php echo esc_attr($full_name); ?>">
